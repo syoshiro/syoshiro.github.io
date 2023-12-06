@@ -12,4 +12,4 @@ Please find examples of my previous work by clicking the links below.
 
 ### [Policy Review - Academic Paper (2022)](https://syoshiro.github.io/web-portfolio/PolicyReview)
 
-### Blog Article (2023)
+### [Blog Article (2023)](https://syoshiro.github.io/web-portfolio/BlogArticle)
