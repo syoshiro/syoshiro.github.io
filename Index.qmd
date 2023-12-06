@@ -4,15 +4,27 @@ format: html
 editor: visual
 ---
 
-## Quarto
+## Welcome to My Portfolio
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+Hi, there! My name is Sarina Oshiro (she/her/hers). I am a Political Communication major at George Washington University, School of Media and Public Affairs.
 
-HOME
+On this page, you will find a few examples of my previous writing as well as creative products developed in R-studio.
 
-Work examples
+Please reach out to me at sarinaoshiro\@gwu.edu with any inquiries. Thank you!
 
-Washington Post Article on Education Rates (linkinhere.com)
+![](Sarina Oshiro - profile picture.jpg){fig-alt="Headshot photo of Sarina Oshiro smiling, wearing a suit" width="160"}
+
+Fun Facts about me:
+
+-   Originally from San Diego, California
+
+-   I have a small rooftop garden and am currently growing spinach and carrots!
+
+-   
+
+### RESUME 
+
+Click HERE to download
 
 ## Running Code
 
