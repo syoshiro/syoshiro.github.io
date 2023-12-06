@@ -1,0 +1,13 @@
+---
+title: "Blog Article"
+format: html
+editor: visual
+---
+
+### HOME \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+
+\
+
+Please find an example of a blog article I wrote in 2023.
+
+TEXT HERE.
