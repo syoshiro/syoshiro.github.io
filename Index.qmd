@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+# Sarina Oshiro
+
 ## Welcome to My Portfolio
 
 Hi, there! My name is Sarina Oshiro (she/her/hers). I am a Political Communication major at George Washington University, School of Media and Public Affairs.
@@ -20,25 +22,8 @@ Fun Facts about me:
 
 -   I have a small rooftop garden and am currently growing spinach and carrots!
 
--   
+-    My favorite museum in DC is the Natural History Museum
 
 ### RESUME 
 
-Click HERE to download
-
-## Running Code
-
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
+[Click HERE to download](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
