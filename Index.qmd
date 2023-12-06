@@ -1,10 +1,12 @@
 ---
-title: "Home Page"
+title: "Sarina Oshiro"
 format: html
 editor: visual
 ---
 
-# Sarina Oshiro
+### HOME  \|  PAST WORK  \|  [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+
+\
 
 ## Welcome to My Portfolio
 
@@ -26,7 +28,7 @@ Fun Facts about me:
 
 ### Resume 
 
-[Click HERE to download](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+[Click HERE to view](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
 ### GitHub
 
