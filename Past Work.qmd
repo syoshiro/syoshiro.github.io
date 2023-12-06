@@ -1,0 +1,13 @@
+---
+title: "Past Work"
+format: html
+editor: visual
+---
+
+Please find examples of my previous work by clicking the links below.
+
+### Map Deliverable in R
+
+### Policy Review - Academic Paper (2022)
+
+### Blog Article (2023) 
