@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-### HOME \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+### [HOME](https://syoshiro.github.io/web-portfolio/Index) \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
 Please find examples of my previous work by clicking the links below.
 
