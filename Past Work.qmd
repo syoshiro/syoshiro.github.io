@@ -4,10 +4,12 @@ format: html
 editor: visual
 ---
 
+### HOME \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+
 Please find examples of my previous work by clicking the links below.
 
-### Map Deliverable in R
+### [Map Deliverable in R](https://syoshiro.github.io/web-portfolio/Map)
 
 ### Policy Review - Academic Paper (2022)
 
-### Blog Article (2023) 
+### Blog Article (2023)

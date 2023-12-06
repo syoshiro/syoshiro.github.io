@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-### HOME  \|  PAST WORK  \|  [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+### HOME \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
 \
 
@@ -16,7 +16,7 @@ On this page, you will find a few examples of my previous writing as well as cre
 
 Please reach out to me at sarinaoshiro\@gwu.edu with any inquiries. Thank you!
 
-![](Sarina Oshiro - profile picture.jpg){fig-alt="Headshot photo of Sarina Oshiro smiling, wearing a suit" width="160"}
+![](Sarina%20Oshiro%20-%20profile%20picture.jpg){fig-alt="Headshot photo of Sarina Oshiro smiling, wearing a suit" width="160"}
 
 Fun Facts about me:
 
@@ -24,9 +24,9 @@ Fun Facts about me:
 
 -   I have a small rooftop garden and am currently growing spinach and carrots!
 
--    My favorite museum in DC is the Natural History Museum
+-   My favorite museum in DC is the Natural History Museum
 
-### Resume 
+### Resume
 
 [Click HERE to view](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
