@@ -4,6 +4,7 @@ format: html
 editor: visual
 ---
 
+
 ### [HOME](https://syoshiro.github.io/web-portfolio/Index) \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
 # Map Deliverable
@@ -13,6 +14,7 @@ Here is an example of a map I created demonstrating median income by county in m
 ## California Median Income by County
 
 Here's the set up, including all of the packages we are going to need to generate a map of California's Median income, as well as the population totals per county using census data. Below the packages, I have put my census api key, which will give me access to census data using the tidycensus package.
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -35,7 +37,9 @@ readRenviron("~/.Renviron")
 
 ```
 
+
 I have chosen to look at California, so I am loading in my data and the variables for total population and Median income.
+
 
 ```{r}
 #chose variables we want
@@ -49,7 +53,9 @@ ca_counties_withgeo <- get_acs(geography = "county",
                        geometry = TRUE)
 ```
 
+
 Now we can pull up a basic map using the leaflet package. The function mapview will generate a great base map for us, and we can specify that we want a chloropleth map (zcol function) with green shades (col.regions).
+
 
 ```{r}
 
@@ -59,6 +65,7 @@ mapview(ca_counties_withgeo, zcol = "medincomeE",
 
 ```
 
+
 **Custom Pop-Up Labels**
 
 First, I wrote directions for my pop-up label. When I click on any given county, I want the name of the County to be bold, and then beneath the name I want the total population followed by the median income.
@@ -66,6 +73,7 @@ First, I wrote directions for my pop-up label. When I click on any given county,
 After giving these instructions, I then pull the map back up with my custom pop-up label.
 
 Much cleaner!
+
 
 ```{r}
 popup.label <- glue::glue("<strong>{ca_counties_withgeo$NAM}</strong><br /> 
@@ -78,4 +86,6 @@ mapview(ca_counties_withgeo, zcol = "medincomeE",
          alpha.regions = 1, label = popup.label)
 ```
 
+
 Using this map, we can gather some cursory information that might inform further research. For example, we can easily see that Trinity County has the lowest median income in the state of California at \$42,206. This is in comparison to Santa Clara County, which has an enormous median income of over \$1.4 million.
+
