@@ -8,7 +8,7 @@ editor: visual
 
 Please find examples of my previous work by clicking the links below.
 
-### [Map Deliverable in R](https://syoshiro.github.io/Map)
+### [Map Visualization in R](https://syoshiro.github.io/Map)
 
 ### [Policy Review - Academic Paper (2022)](https://syoshiro.github.io/PolicyReview)
 
