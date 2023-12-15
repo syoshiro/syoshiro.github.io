@@ -27,10 +27,15 @@ library(leafsync)
 library(leaflet.extras2)
 options(tigris_class = "sf")
 
-census_api_key("2a6f8c21a30d3024e038d67d7d4eba647dc79cd4", install =TRUE)
+census_api_key("2a6f8c21a30d3024e038d67d7d4eba647dc79cd4", overwrite =TRUE)
 
 readRenviron("~/.Renviron")
 
+```
+
+I have chosen to look at California, so I am loading in my data and the variables for total population, Median income, and median age.
+
+```{r}
 #chose variables we want
 myvars <- c(totalpop = "B01003_001",
             medincome = "B19013_001",
@@ -41,4 +46,17 @@ ca_counties_withgeo <- get_acs(geography = "county",
                        state = "CA",
                        output = "wide",
                        geometry = TRUE)
+```
+
+```{r}
+
+mapview(ca_counties_withgeo, zcol = "medincomeE")
+
+mylabel <- glue::glue("{ca_counties_withgeo$NAM} {ca_counties_withgeo$medincome}")
+
+mapview(ca_counties_withgeo, zcol = "medincomeE", 
+         col.regions = "red", 
+         alpha.regions = 1,
+         label = mylabel)
+
 ```
