@@ -4,9 +4,8 @@ format: html
 editor: visual
 ---
 
-### [HOME](https://syoshiro.github.io/web-portfolio/Index) \| [PAST WORK](https://syoshiro.github.io/web-portfolio/Past%20Work) \| [RESUME](https://github.com/syoshiro/web-portfolio/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
+### [HOME](https://syoshiro.github.io/index) \| [PAST WORK](https://syoshiro.github.io/Past%20Work) \| [RESUME](https://github.com/syoshiro/syoshiro.github.io/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
-# Map Deliverable
 
 Here is an example of a map I created demonstrating median income by county in my home state of California. This map and the related analysis was developed and completed in R-studio using the MapView package.
 
