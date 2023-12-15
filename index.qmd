@@ -6,8 +6,6 @@ editor: visual
 
 ### [HOME](https://syoshiro.github.io/index) \| [PAST WORK](https://syoshiro.github.io/Past%20Work) \| [RESUME](https://github.com/syoshiro/syoshiro.github.io/blob/main/Sarina%20Oshiro%20Resume%202024.pdf)
 
-\
-
 ## Welcome to My Portfolio
 
 Hi, there! My name is Sarina Oshiro (she/her/hers). I am a Political Communication major at George Washington University, School of Media and Public Affairs.
