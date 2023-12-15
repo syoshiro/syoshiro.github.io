@@ -8,8 +8,8 @@ editor: visual
 
 Please find examples of my previous work by clicking the links below.
 
-### [Map Deliverable in R](https://syoshiro.github.io/web-portfolio/Map)
+### [Map Deliverable in R](https://syoshiro.github.io/Map)
 
-### [Policy Review - Academic Paper (2022)](https://syoshiro.github.io/web-portfolio/PolicyReview)
+### [Policy Review - Academic Paper (2022)](https://syoshiro.github.io/PolicyReview)
 
-### [Blog Article (2023)](https://syoshiro.github.io/web-portfolio/BlogArticle)
+### [Blog Article (2023)](https://syoshiro.github.io/BlogArticle)
