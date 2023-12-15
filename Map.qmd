@@ -8,12 +8,37 @@ editor: visual
 
 # Map Deliverable
 
-Here is an example of a map I created demonstrating \_\_\_\_\_. This map and the related analysis was developed and completed in R-studio.
+Here is an example of a map I created demonstrating \_\_\_\_\_. This map and the related analysis was developed and completed in R-studio using the MapView package.
 
 ## Map below
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 
-```{r}
-1 + 1
+library(tidyverse)
+library(tigris)
+library(sf)
+library(tidycensus)
+library(htmltools)
+library(janitor)
+library(here)
+library(mapview)
+library(leafsync)
+library(leaflet.extras2)
+options(tigris_class = "sf")
+
+census_api_key("2a6f8c21a30d3024e038d67d7d4eba647dc79cd4", install =TRUE)
+
+readRenviron("~/.Renviron")
+
+#chose variables we want
+myvars <- c(totalpop = "B01003_001",
+            medincome = "B19013_001",
+            medage = "B01002_001")
+
+ca_counties_withgeo <- get_acs(geography = "county",
+                       variables = c(myvars),
+                       state = "CA",
+                       output = "wide",
+                       geometry = TRUE)
 ```
