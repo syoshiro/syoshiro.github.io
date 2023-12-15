@@ -55,7 +55,6 @@ mapview(ca_counties_withgeo, zcol = "medincomeE")
 mylabel <- glue::glue("{ca_counties_withgeo$NAM} {ca_counties_withgeo$medincome}")
 
 mapview(ca_counties_withgeo, zcol = "medincomeE", 
-         col.regions = "red", 
          alpha.regions = 1,
          label = mylabel)
 
